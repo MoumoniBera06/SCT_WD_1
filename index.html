@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Mocha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-coffee"></i>
+          Cafe Mocha
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Fresh Coffee, Every Day</h1>
+        <p>Quality beans, expertly brewed for the perfect cup</p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">View Menu</a>
+          <a href="#about" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p class="subtitle">Serving quality coffee since 2024</p>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>Our Story</h3>
+            <p>
+              We started Cafe Mocha with a simple mission: to serve the best
+              coffee in town. Every cup is made with carefully selected beans
+              and prepared by our skilled baristas.
+            </p>
+
+            <h3>Quality First</h3>
+            <p>
+              We source our beans directly from farms and roast them fresh
+              daily. Our commitment to quality ensures every customer gets the
+              perfect cup.
+            </p>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat">
+              <h4>300+</h4>
+              <p>Daily Customers</p>
+            </div>
+            <div class="stat">
+              <h4>12</h4>
+              <p>Coffee Varieties</p>
+            </div>
+            <div class="stat">
+              <h4>1</h4>
+              <p>Years Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu" class="menu">
+      <div class="container">
+        <h2>Our Menu</h2>
+        <p class="subtitle">Fresh coffee and delicious treats</p>
+
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-category="hot">Hot Coffee</button>
+          <button class="tab-btn" data-category="cold">Cold Drinks</button>
+          <button class="tab-btn" data-category="food">Food</button>
+        </div>
+
+        <div class="menu-grid" id="menu-grid">
+          <div class="menu-item hot">
+            <h3>Espresso</h3>
+            <p>Rich, bold coffee shot</p>
+            <span class="price">Rs. 170</span>
+          </div>
+
+          <div class="menu-item hot">
+            <h3>Americano</h3>
+            <p>Espresso with hot water</p>
+            <span class="price">Rs. 150</span>
+          </div>
+
+          <div class="menu-item hot">
+            <h3>Cappuccino</h3>
+            <p>Espresso with steamed milk foam</p>
+            <span class="price">Rs. 180</span>
+          </div>
+
+          <div class="menu-item hot">
+            <h3>Latte</h3>
+            <p>Espresso with steamed milk</p>
+            <span class="price">Rs. 210</span>
+          </div>
+          <div class="menu-item cold">
+            <h3>Iced Coffee</h3>
+            <p>Cold brew served over ice</p>
+            <span class="price">Rs. 190</span>
+          </div>
+          <div class="menu-item cold">
+            <h3>Iced Latte</h3>
+            <p>Cold espresso with milk</p>
+            <span class="price">Rs. 230</span>
+          </div>
+          <div class="menu-item cold">
+            <h3>Frappuccino</h3>
+            <p>Blended iced coffee drink</p>
+            <span class="price">Rs. 250</span>
+          </div>
+          <div class="menu-item food">
+            <h3>Croissant</h3>
+            <p>Freshly made French pastry</p>
+            <span class="price">Rs. 199</span>
+          </div>
+          <div class="menu-item food">
+            <h3>Muffin</h3>
+            <p>Fruit or chocolate chip</p>
+            <span class="price">Rs. 230</span>
+          </div>
+          <div class="menu-item food">
+            <h3>Sandwich</h3>
+            <p>Fresh made daily</p>
+            <span class="price">Rs. 210</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p class="subtitle">Get in touch or visit our shop</p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>89B, APC Road<br />Sealdah, Kolkata 700008</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>12345 87651</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h3>Hours</h3>
+                <p>Mon-Fri: 7AM-7PM<br />Sat-Sun: 8AM-8PM</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <h3>Send us a message</h3>
+
+            <div class="form-row">
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+
+            <div class="form-row">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <i class="fas fa-coffee"></i>
+            Cafe Mocha
+          </div>
+          <p>&copy; 2025 Cafe Mocha. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
